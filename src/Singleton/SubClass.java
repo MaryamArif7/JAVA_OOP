@@ -1,9 +1,9 @@
 package Singleton;
 
 import acess.A;
-import java.util.ArrayList;
-import java.util.Collections;
-
+//in A class->from access package the variable "num " is protected
+//all the below subclasses are trying to acces thee variable num from A .
+//the protected can be accessed from different package too and in the same package too
 public class SubClass extends A {
 
     public SubClass(int num, String name) {

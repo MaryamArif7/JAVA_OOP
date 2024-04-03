@@ -8,6 +8,7 @@ public class ObjectPrint {
     }
 
     @Override
+    //overirding the tString
     public String toString() {
         return "ObjectPrint{" +
                 "num=" + num +

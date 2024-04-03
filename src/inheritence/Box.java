@@ -22,6 +22,9 @@ public class Box {
 
     // cube
     Box (double side) {
+        //object class is root class of all classes defined in jav.lang package
+        //every class is a subclass of object class,means 
+        //all classes are childrenn of object class
         // super(); Object class
         this.w = side;
         this.l = side;

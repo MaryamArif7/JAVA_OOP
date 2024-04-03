@@ -20,8 +20,6 @@ public class ObjectDemo {
         super.finalize();
     }
 
-
-    // we will go in details of how to create it in hashmap lecture
     @Override
     public int hashCode() {
         return super.hashCode();
