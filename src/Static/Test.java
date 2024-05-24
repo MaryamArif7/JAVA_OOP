@@ -10,6 +10,7 @@ Test(int age,int salary,String name){
 this.age=age;
 this.salary=salary;
 this.name=name;
+//acessing static with the classname
 Test.population+=2;
 }
 public class Main{
