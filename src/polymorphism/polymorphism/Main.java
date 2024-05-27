@@ -27,6 +27,16 @@ public class Main {
         // circle is refrence var of type Shapes
         //object is circle of type circle(class)
         //so the area method of circle is called ,not of the shapes class.
+        /*  Basically.......
+         * ->a, where a superclass reference variable can hold an object of
+          a subclass. This allows the method of the subclass to be called even when the reference is of the superclass type
+          -->two refreces varaible of type shapes->SuperClass,are circle and squre
+          ->both  of the refences,gets assigned with objects of ciricle and square
+          ->When you create an object using the new Circle() constructor, the reference variable points to an instance of the Circle class.
+          ->Even though the reference variable might be of the superclass type (Shapes in this case), the actual object is of the subclass type (Circle)
+          , so the overridden method in the Circle class is called.
+          You cannot assign a superclass object to a subclass reference variable directly because this violates the principle of type safety. The subclass reference variable expects an object of the subclass or a subclass of it.
+         */
         Shapes circle = new Circle();
         Shapes square = new Square();
 
