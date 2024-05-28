@@ -6,7 +6,7 @@ public class BoxPrice extends BoxWeight{
 
     BoxPrice () {
         super();
-        this.cost = -1;
+        this.cost = -1; 
     }
 
     BoxPrice(BoxPrice other) {

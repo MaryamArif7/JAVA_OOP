@@ -4,6 +4,13 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
+        /*
+        ->List<Integer> is an interface reference, 
+        ->ArrayList,LinkedList both are cleases under the category of Interfacr List
+        ->ArrayList Implements List in the colection hierarchry in java
+        ->LinkedList implements List in java
+
+         */
         List<Integer> list = new ArrayList<>();
         List<Integer> list2 = new LinkedList<>();
 

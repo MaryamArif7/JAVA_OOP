@@ -51,3 +51,9 @@ At runtime, the m1 method in B is called.
 Output: Two (because m1 in B is called).
 ->Dynamic Dispatch: When you have a superclass reference pointing to a subclass object, the overridden method in the subclass is called at runtime.
 Method Signature: In method overloading, the method to call is determined at compile-time based on the method signature. In method overriding, the method to call is determined at runtime based on the actual object type.
+-----clearing few things----
+   -> ArrayList<Integer> arr = new ArrayList<>();
+     directly using the ArrayList class, which means you have access to methods specific to ArrayList that are not part of the List interface.
+     ->List<Integer> arr = new ArrayList<>();
+This line declares arr as a List of Integer, but initializes it with an ArrayList.
+Here, arr is a reference of type List, which is an interface. The actual object is an instance of ArrayList.
